@@ -29,6 +29,4 @@ Toda reprodução de padrão é conhecido como rotina e este termo tambem é con
 
 
 
-
- a:
-
+ 
