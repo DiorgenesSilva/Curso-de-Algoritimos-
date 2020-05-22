@@ -25,6 +25,8 @@ Depois que o homem descobriu a proporção (phi),passou a utiliza la  na sua vid
 E tudo isto é reprodução de padrão ou ALGORITIMOS. 
 Toda reprodução de padrão é conhecido como rotina e este termo tambem é conhecido em Algoritimos.Alguns exemplos de algoritimos do dia a dia,escovar os dentes,tomar um banho,trocar a roupa de dotmir, ir para o trabalho,ir a escola e etc.
 
+
+
  
 
 
