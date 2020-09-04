@@ -2,7 +2,7 @@
 
  Introdução e Curso de Algoritimos
 
- Oque são ALGORITIMOS ?
+ Oque são  ALGORITIMOS ?
 
  No livro ALGORITMOS Lógica para Desenvonvimento de Programação de Computadores 
 
