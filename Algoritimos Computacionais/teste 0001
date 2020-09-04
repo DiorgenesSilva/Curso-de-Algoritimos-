@@ -1,0 +1,21 @@
+ALGORITIMO COMPUTACIONAIS.
+>Definição: Algorotomos são  passos a serem seguidos pou um Módulo Processador e seus respectivos Usuários  que,quando executados de forma correta conseguem Realizar determinada Tarefa.
+
+Modulo Processador = Tudo  aquilo que pode efetuar processamento. Tudo que pode ser programavel.
+Usuarios = Pessoas fisicas que utilizam os modulos processador 
+Realizar = Resolver um problema ou necessidade através do modulo processador 
+Tarefa =  Tudo que for atividade determinada a ser executa .
+
+" Algoritimos computacionais são:
+rotinas executadas por um modulo processador "  
+Tudo que se faz na area de TI,IoT,Computação em ,Nuvem,BIg Data .
+
+Todo Algoritimo Computacional começa com a criação da Lógica de Programação. A lógica de programação ela esta na sua cabeça.Ate o  iniciante, nunca programou voce vai programar,desenvolvendo raciocinio lógico, através da Lógica de Programação.
+Apos construir a sua lógica,iremos partir para escrever esta lógica em uma linguagem de programaçao qualquer,Java,VB,Python,Objetive-C etc. Esta linguagem de programação será usada para criar um sistema completo .
+
+Para estruturar as lógica de programação podemos usar varias ferramentas,as mais famosas entre elas são :
+Fluxograma ou Diagrama de Blocos
+Pseudo Codigo ou Portugol
+Descrição Narrativa 
+
+Iremos ns aprofundar neste curso sobre o Pseudo Código ou Portugol.
