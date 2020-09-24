@@ -1,0 +1,28 @@
+Escreva("TESTES DE ALGORITIMOS NO VISUALG CURSO EM VIDEO ) 
+Escreval("Professor Gustavo Guanabara" )
+
+escreval("-=-" *50) 
+
+Algoritmo "ESTRUTURAS CONDICIONAIS SIMPLES"
+//  
+//  
+          "FAÇA M PROGRAMA QUE LEIA O QUANTOUMA PESSOA TEM EM DINHEIRO"
+          "CASO ELA TENHA O VALORACIMA DER41.OOO. DIGA QUE ESTA OK PARA VIAJAR"
+
+Var
+// Seção de Declarações das variáveis 
+   TIVERDINHEIRO :real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    Escreva("Quanto voce tem em dinheiro?")
+    leia(TIVERDINHEIRO)
+    Se (TIVERDINHEIRO) >= 1000 Entao
+       Escreval("TUDO OK, VOCE TEM",TIVERDINHEIRO," E PODE VIAJAR COM ESTE VALOR.UMA BOA VIAGEM ")
+    Fimse
+   Escreval("OBRIGADO PELA CONSULTA ESPERAMOS VOCE NA PROXIMA VIAGEM !! ")
+
+Fimalgoritmo
+
+Escreval ("-=-" * 50)
+
