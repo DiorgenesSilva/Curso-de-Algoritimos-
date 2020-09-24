@@ -1,11 +1,16 @@
+Escreval("==============================================================")
+Escreval("      **~~~*****EDITOR PARA TESTES DO VISUALG*****~~**         )
+Escreval("==============================================================")
+Escreval("Para esta aula usaremos o Editor de Texto VISUALG." ) 
+Escreval("Pasta Somente para testes,exemplos e anotações ")
+Escreval("Veja abaixo:") 
+Escreval("===============================================================")
 Escreva("TESTES DE ALGORITIMOS NO VISUALG CURSO EM VIDEO ) 
 Escreval("Professor Gustavo Guanabara" )
-
+Escreval("================================================================")
 escreval("EXEMPLO 001 -=-" *50) 
 
-Algoritmo "ESTRUTURAS CONDICIONAIS SIMPLES"
-//  
-//  
+Algoritmo "ESTRUTURAS CONDICIONAIS SIMPLES"  
           "FAÇA M PROGRAMA QUE LEIA O QUANTOUMA PESSOA TEM EM DINHEIRO"
           "CASO ELA TENHA O VALORACIMA DER41.OOO. DIGA QUE ESTA OK PARA VIAJAR"
 
