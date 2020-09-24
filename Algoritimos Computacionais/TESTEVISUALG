@@ -142,9 +142,5 @@ Inicio
  Escreval("Fim do Programa,Feche o Visulag!")
 Fimalgoritmo
 
-<<<<<<< HEAD
-Escreval ("-=-" * 50)
- 
-=======
 Escreval ("EXEMPLO 006 -=-" * 50)
->>>>>>> teste-ramificado-
+
