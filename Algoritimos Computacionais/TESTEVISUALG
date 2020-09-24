@@ -47,7 +47,26 @@ Fimalgoritmo
 
 escreval("EXEMPLO 001 -=-" *50) 
 
+Algoritmo "USUARIO ESCOLHENDO O VALOR E TENDO SALTO  ESTRUTURA DE REPETIÇAO  "
+                "ENQUANTO,FAÇA E FIMENQUANTO"
+      "FAÇA UM PROGRAMA QUE O USUARIO ESCREVA UM VALOR E SALTE DE 2 EM 2 "
+Var
+CONTADOR,VALOR,SALTO : inteiro
 
+Inicio
+
+// Seção de Comandos, procedimento, funções, operadores, etc...
+  SALTO <- 2
+  Escreval("QUER CONTAR ATE QUANTO:")
+  Leia(VALOR)
+  Enquanto (CONTADOR <= VALOR)  Faça
+    Escreva(CONTADOR)
+    CONTADOR <- ( CONTADOR + SALTO )
+  FimEnquanto
+ Escreval( " Terminei de contar :" )
+Fimalgoritmo
+
+escreval("EXEMPLO 001 -=-" *50) 
 
 Algoritmo "ESTRUTURAS CONDICIONAIS SIMPLES"  
           "FAÇA M PROGRAMA QUE LEIA O QUANTO UMA PESSOA TEM EM DINHEIRO"
