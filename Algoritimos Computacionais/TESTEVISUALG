@@ -28,7 +28,21 @@ Fimalgoritmo
 
 escreval("EXEMPLO 001 -=-" *50) 
 
+ Algoritmo "conte ate 10 de forma decrecente utilizando contador e  Enquanto faça"
 
+Var
+// Seção de Declarações das variáveis
+contador : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ contador <- 10
+ Enquanto contador >=  0 faça
+  Escreval(contador)
+  contador <- contador - 1
+ FimEnquanto
+
+Fimalgoritmo
 
 
 escreval("EXEMPLO 001 -=-" *50) 
