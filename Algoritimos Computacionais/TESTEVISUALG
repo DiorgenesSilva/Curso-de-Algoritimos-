@@ -76,11 +76,7 @@ Fimalgoritmo
 
 Escreval ("-=-" * 50)
 
-<<<<<<< HEAD
-
-
-
-=======
+ 
 Algoritmo "ESTRUTURA DE CONDIÇAO COMPOSTA"
   
             "SE,ENTAO,SENAO,FIMSE"
@@ -136,9 +132,7 @@ Inicio
                   Escreval(" Voce esta Com Obesidade Severa,procure um especialista ")
               Senao
                   Escreval(" Voce esta Com Obesidade Severa,procure um especialista ")
-
-
-
+ 
         Fimse
        Fimse
       Fimse
@@ -149,4 +143,4 @@ Inicio
 Fimalgoritmo
 
 Escreval ("-=-" * 50)
->>>>>>> teste-ramificado-
+ 
