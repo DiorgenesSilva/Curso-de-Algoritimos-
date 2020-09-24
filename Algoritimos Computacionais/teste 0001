@@ -26,6 +26,7 @@ var
 Inicio   
 
 fimalgoritimo
+<<<<<<< Updated upstream
 =======
  Escreval("==============================================================")
  Escreval("      **~~~*****EDITOR PARA TESTES DO VISUALG*****~~**         )
@@ -38,3 +39,6 @@ fimalgoritimo
  Escreval(" EXEMPLO 001 ")
  
 >>>>>>> Novo-ramo-
+=======
+ 
+>>>>>>> Stashed changes
