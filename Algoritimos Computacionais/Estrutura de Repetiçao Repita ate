@@ -71,3 +71,25 @@ Fimalgoritmo
 
 
  Escreval(" EXEMPLO 004 ")
+
+Algoritmo "estrutura de condiçao REPITA ATE, QUANTOS NUMEROS SAO NEGATIVOS"
+
+Var
+  NUM,CONT,TOTALN : inteiro
+
+Inicio
+    CONT <- 1
+    TOTALN <- 0
+    Repita
+       Escreva("Digite um numero")
+       Leia(NUM)
+       Se (NUM < 0) Entao
+          TOTALN <- TOTALN + 1
+       Fimse
+       CONT <- CONT + 1
+    Ate(CONT > 5 )
+   Escreval("Foramm  digitados ",TOTALN,"Valores negativos")
+
+Fimalgoritmo
+
+
