@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ALGORITIMO COMPUTACIONAIS.
 >Definição: Algorotomos são  passos a serem seguidos pou um Módulo Processador e seus respectivos Usuários  que,quando executados de forma correta conseguem Realizar determinada Tarefa.
 
@@ -25,3 +26,15 @@ var
 Inicio   
 
 fimalgoritimo
+=======
+ Escreval("==============================================================")
+ Escreval("      **~~~*****EDITOR PARA TESTES DO VISUALG*****~~**         )
+ Escreval("==============================================================")
+ Escreval("Para esta aula usaremos o Editor de Texto VISUALG." ) 
+ Escreval("Pasta Somente para testes,exemplos e anotações ")
+ Escreval("Veja abaixo:") 
+ Escreval("===============================================================")
+
+ Escreval(" EXEMPLO 001 ")
+ 
+>>>>>>> Novo-ramo-
