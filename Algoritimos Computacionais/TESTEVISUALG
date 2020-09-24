@@ -1,0 +1,146 @@
+Escreva("TESTES DE ALGORITIMOS NO VISUALG CURSO EM VIDEO ) 
+Escreval("Professor Gustavo Guanabara" )
+
+escreval("-=-" *50) 
+
+Algoritmo "ESTRUTURAS CONDICIONAIS SIMPLES"
+//  
+//  
+          "FAÇA M PROGRAMA QUE LEIA O QUANTOUMA PESSOA TEM EM DINHEIRO"
+          "CASO ELA TENHA O VALORACIMA DER41.OOO. DIGA QUE ESTA OK PARA VIAJAR"
+
+Var
+// Seção de Declarações das variáveis 
+   TIVERDINHEIRO :real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    Escreva("Quanto voce tem em dinheiro?")
+    leia(TIVERDINHEIRO)
+    Se (TIVERDINHEIRO) >= 1000 Entao
+       Escreval("TUDO OK, VOCE TEM",TIVERDINHEIRO," E PODE VIAJAR COM ESTE VALOR.UMA BOA VIAGEM ")
+    Fimse
+   Escreval("OBRIGADO PELA CONSULTA ESPERAMOS VOCE NA PROXIMA VIAGEM !! ")
+
+Fimalgoritmo
+
+Escreval ("-=-" * 50)
+
+
+Algoritmo "ESTRUTURA DE CONDIÇAO COMPOSTA"
+
+
+Var
+// Seção de Declarações das variáveis 
+   ANO: inteiro
+   NACIMENTO: inteiro
+   IDADE: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  Escreval("Em que ano nos estamos?")
+  Leia(ANO)
+  Escreval("Em que ano voce nasceu ?:")
+  Leia(NACIMENTO)
+  IDADE <- ANO- NACIMENTO
+  Escreval("Em " , ANO , "Voce tera", IDADE , "de idade")
+  Se IDADE >= 18 entao
+      Escreval("Voce ja ´´e de maior")
+      Senao
+      Escreval("Voce anda é de maior")
+  Fimse
+ Fimalgoritmo
+
+ Escreval ("-=-" * 50)
+
+ Algoritmo "ALUNO APROVADO OU REPROVADO ESTRUTURA DE CONDIÇÃO COMPOSTA   "
+                           "SE,ENTAO,FIMSE"
+Var
+// Seção de Declarações das variáveis 
+  NOTA1,NOTA2,MEDIA: real
+
+Inicio
+// Se  ão de Comandos, procedimento, funções, operadores, etc...
+Escreval("MEDIA FINAL DAS PROVAS DE AVALIAÇÃO")
+   Escreval("Digite a Primeira Nota")
+   Leia(NOTA1)
+   Escreval("Digite a Segunda Nota")
+   Leia(NOTA2)
+   MEDIA <- (NOTA1 + NOTA2) / 2
+   Se (MEDIA >= 7.0 ) Entao
+      Escreval("Parabens!! A sua media total foi :", MEDIA ," Voce foi  Aprovado")
+      Senao
+      Escreval("Nao Alcansou a pontuação necessaria. A sua Media Total foi :" , MEDIA , "ESTUDE MAIS!")
+   Fimse
+   
+Fimalgoritmo
+
+Escreval ("-=-" * 50)
+
+Algoritmo "ESTRUTURA DE CONDIÇAO COMPOSTA"
+  
+            "SE,ENTAO,SENAO,FIMSE"
+   
+
+
+Var 
+   ANO: inteiro
+   NACIMENTO: inteiro
+   IDADE: inteiro
+Inicio
+ 
+  Escreval("Em que ano nos estamos?")
+  Leia(ANO)
+  Escreval("Em que ano voce nasceu ?:")
+  Leia(NACIMENTO)
+  IDADE <- ANO- NACIMENTO
+  Escreval("Em " , ANO , "Voce tera", IDADE , "de idade")
+  Se IDADE >= 18 entao
+      Escreval("Voce ja ´´e de maior")
+      Senao
+      Escreval("Voce anda é de maior")
+  Fimse
+ Fimalgoritm
+
+Escreval ("-=-" * 50)
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ Escreval("leia a Massa")
+ Leia(MASSA)
+ Escreval("Leia a Altura")
+ Leia(ALTURA)
+ IMC <- massa /( ALTURA ^ 2 )
+ Escreval("IMC:",IMC:5:2)
+ 
+ Se (IMC < 17 ) Entao
+    Escreval("Muito abaixo do peso|")
+ Senao
+     Se (IMC >=  17 ) e ( IMC <= 18.5 ) Entao
+        Escreval("Voce esta abaixo do peso")
+     Senao
+       Se (IMC >= 18.5) e (IMC < 25) entao
+           Escreval("Parabens!! Voce esta no peso ideal")
+       Senao
+         Se (IMC >= 25  ) e  (IMC <= 30 ) Entao
+             Escreval("Sobrepeso")
+         Senao
+           Se (IMC => 30 ) e (IMC < 35) Entao
+               Escreval(" Voce esta Obeso")
+           Senao
+              Se  ( IMC => 35)  e ( IMC <  40  )  Entao
+                  Escreval(" Voce esta Com Obesidade Severa,procure um especialista ")
+              Senao
+                  Escreval(" Voce esta Com Obesidade Severa,procure um especialista ")
+
+
+
+        Fimse
+       Fimse
+      Fimse
+     Fimse
+    Fimse
+  Fimse
+ Escreval("Fim do Programa,Feche o Visulag!")
+Fimalgoritmo
+
+Escreval ("-=-" * 50)
