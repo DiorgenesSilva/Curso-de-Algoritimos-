@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ 
 ALGORITIMO COMPUTACIONAIS.
 >Definição: Algorotomos são  passos a serem seguidos pou um Módulo Processador e seus respectivos Usuários  que,quando executados de forma correta conseguem Realizar determinada Tarefa.
 
@@ -17,16 +17,9 @@ Apos construir a sua lógica,iremos partir para escrever esta lógica em uma lin
 Para estruturar as lógica de programação podemos usar varias ferramentas,as mais famosas entre elas são :
 Fluxograma ou Diagrama de Blocos
 Pseudo Codigo ou Portugol
-Descrição Narrativa 
-
+Descrição Narrativa  
 Iremos ns aprofundar neste curso sobre o Pseudo Código ou Portugol.
-
-Algiritmo "primeiro"
-var 
-Inicio   
-
-fimalgoritimo
-<<<<<<< Updated upstream
+ 
 =======
  Escreval("==============================================================")
  Escreval("      **~~~*****EDITOR PARA TESTES DO VISUALG*****~~**         )
@@ -37,8 +30,4 @@ fimalgoritimo
  Escreval("===============================================================")
 
  Escreval(" EXEMPLO 001 ")
- 
->>>>>>> Novo-ramo-
-=======
- 
->>>>>>> Stashed changes
+  
