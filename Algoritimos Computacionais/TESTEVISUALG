@@ -26,3 +26,31 @@ Fimalgoritmo
 
 Escreval ("-=-" * 50)
 
+
+Algoritmo "ESTRUTURA DE CONDIÇAO COMPOSTA"
+
+
+Var
+// Seção de Declarações das variáveis 
+   ANO: inteiro
+   NACIMENTO: inteiro
+   IDADE: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  Escreval("Em que ano nos estamos?")
+  Leia(ANO)
+  Escreval("Em que ano voce nasceu ?:")
+  Leia(NACIMENTO)
+  IDADE <- ANO- NACIMENTO
+  Escreval("Em " , ANO , "Voce tera", IDADE , "de idade")
+  Se IDADE >= 18 entao
+      Escreval("Voce ja ´´e de maior")
+      Senao
+      Escreval("Voce anda é de maior")
+  Fimse
+ Fimalgoritmo
+
+ Escreval ("-=-" * 50)
+
+ 
+
