@@ -26,7 +26,8 @@ Fimalgoritmo
 Escreval(" EXEMPLO 002 ")
 
 
-Algoritmo "ESTRUTURA DE CONDIÇAO REPITA ATE"
+ "ESTRUTURA DE CONDIÇAO REPITA ATE" 
+ Algoritmo 
               "SOMA DE TODOS OS VALORES'
                " O USUARIO DECIDE QUANDO PARAR"
 Var
@@ -34,7 +35,7 @@ Var
   NUM, SOMA: Inteiro
   RESP: Caractere
 
-Inicio
+InicioAlgoritmo
   SOMA<- 0
   Repita
         Escreva("digite um Valor:")
@@ -46,3 +47,27 @@ Inicio
  Escreval(" A soma 
 
  Escreval(" EXEMPLO 003 ")
+
+ Algoritmo "TABUADA REPITA ATE   "
+   
+
+Var
+   CONT,NUM,RES: inteiro
+
+Inicio
+ 
+ CONT <- 1
+ Escreval("QUER SABER A TABUADA DE QUAL NUMERO?")
+ Leia(NUM)
+ Repita
+ RES <- ( NUM * CONT)
+ Escreval(NUM,"X",CONT,"=",RES)
+ CONT <- CONT +1
+ ate(CONT > 10)
+ 
+ 
+
+Fimalgoritmo
+
+
+ Escreval(" EXEMPLO 004 ")
