@@ -52,5 +52,30 @@ Inicio
 
  Escreval ("-=-" * 50)
 
- 
+ Algoritmo "ALUNO APROVADO OU REPROVADO ESTRUTURA DE CONDIÇÃO COMPOSTA   "
+                           "SE,ENTAO,FIMSE"
+Var
+// Seção de Declarações das variáveis 
+  NOTA1,NOTA2,MEDIA: real
+
+Inicio
+// Se  ão de Comandos, procedimento, funções, operadores, etc...
+Escreval("MEDIA FINAL DAS PROVAS DE AVALIAÇÃO")
+   Escreval("Digite a Primeira Nota")
+   Leia(NOTA1)
+   Escreval("Digite a Segunda Nota")
+   Leia(NOTA2)
+   MEDIA <- (NOTA1 + NOTA2) / 2
+   Se (MEDIA >= 7.0 ) Entao
+      Escreval("Parabens!! A sua media total foi :", MEDIA ," Voce foi  Aprovado")
+      Senao
+      Escreval("Nao Alcansou a pontuação necessaria. A sua Media Total foi :" , MEDIA , "ESTUDE MAIS!")
+   Fimse
+   
+Fimalgoritmo
+
+Escreval ("-=-" * 50)
+
+
+
 
