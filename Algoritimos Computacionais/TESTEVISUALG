@@ -11,7 +11,22 @@ Escreval("================================================================")
 
 escreval("EXEMPLO 001 -=-" *50) 
 
+Algoritmo "CONTE ATÉ 10 ESTRUTURA DE REPETIÇAO SIMPLES"
+                "ENATANTO,FAÇA E FIMENQUANTO"
 
+Var
+CONTADOR : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  Enquanto CONTADOR <= 5 Faça
+    Escreva(CONTADOR)
+    contador <- ( contador + 1 )
+  FimEnquanto
+ Escreval("Terminei de contar")
+Fimalgoritmo
+
+escreval("EXEMPLO 001 -=-" *50) 
 
 
 
