@@ -1,7 +1,7 @@
 Escreva("TESTES DE ALGORITIMOS NO VISUALG CURSO EM VIDEO ) 
 Escreval("Professor Gustavo Guanabara" )
 
-escreval("-=-" *50) 
+escreval("EXEMPLO 001 -=-" *50) 
 
 Algoritmo "ESTRUTURAS CONDICIONAIS SIMPLES"
 //  
@@ -24,7 +24,7 @@ Inicio
 
 Fimalgoritmo
 
-Escreval ("-=-" * 50)
+Escreval ("EXEMPLO 002 -=-" * 50)
 
 
 Algoritmo "ESTRUTURA DE CONDIÇAO COMPOSTA"
@@ -50,7 +50,7 @@ Inicio
   Fimse
  Fimalgoritmo
 
- Escreval ("-=-" * 50)
+ Escreval ("EXEMPLO 003 -=-" * 50)
 
  Algoritmo "ALUNO APROVADO OU REPROVADO ESTRUTURA DE CONDIÇÃO COMPOSTA   "
                            "SE,ENTAO,FIMSE"
@@ -74,7 +74,7 @@ Escreval("MEDIA FINAL DAS PROVAS DE AVALIAÇÃO")
    
 Fimalgoritmo
 
-Escreval ("-=-" * 50)
+Escreval ("EXEMPLO 004 -=-" * 50)
 
 Algoritmo "ESTRUTURA DE CONDIÇAO COMPOSTA"
   
@@ -101,7 +101,7 @@ Inicio
   Fimse
  Fimalgoritm
 
-Escreval ("-=-" * 50)
+Escreval ("EXEMPLO 005 -=-" * 50)
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -143,4 +143,4 @@ Inicio
  Escreval("Fim do Programa,Feche o Visulag!")
 Fimalgoritmo
 
-Escreval ("-=-" * 50)
+Escreval ("EXEMPLO 006 -=-" * 50)
