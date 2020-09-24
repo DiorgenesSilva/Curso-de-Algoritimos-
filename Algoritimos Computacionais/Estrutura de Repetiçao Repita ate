@@ -1,0 +1,48 @@
+ Escreval("==============================================================")
+ Escreval("      **~~~*****EDITOR PARA TESTES DO VISUALG*****~~**         )
+ Escreval("==============================================================")
+ Escreval("ESTRUTURA DE REPETIÇAO REPITA - ATE() 
+ Escreval("==============================================================") 
+
+ Escreval(" EXEMPLO 001. ")
+
+Algoritmo "REPITA -ATE() CONTADOR ATE 10 "
+
+Var
+CONTADOR:inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   CONTADOR  <- 1
+   Repita
+       Escreva(CONTADOR)
+       CONTADOR <- CONTADOR + 1
+   Ate(CONTADOR > 10)
+   
+
+Fimalgoritmo
+
+Escreval(" EXEMPLO 002 ")
+
+
+Algoritmo "ESTRUTURA DE CONDIÇAO REPITA ATE"
+              "SOMA DE TODOS OS VALORES'
+               " O USUARIO DECIDE QUANDO PARAR"
+Var
+
+  NUM, SOMA: Inteiro
+  RESP: Caractere
+
+Inicio
+  SOMA<- 0
+  Repita
+        Escreva("digite um Valor:")
+        Leia(NUM)
+        SOMA <- SOMA + NUM
+        Escreval("Voce quer continuar [S/N]")
+        Leia(RESP)
+  Ate(RESP = "N")
+ Escreval(" A soma 
+
+ Escreval(" EXEMPLO 003 ")
