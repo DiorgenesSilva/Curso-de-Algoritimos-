@@ -8,10 +8,20 @@ Escreval("===============================================================")
 Escreva("TESTES DE ALGORITIMOS NO VISUALG CURSO EM VIDEO ) 
 Escreval("Professor Gustavo Guanabara" )
 Escreval("================================================================")
+
 escreval("EXEMPLO 001 -=-" *50) 
 
+
+
+
+
+
+escreval("EXEMPLO 001 -=-" *50) 
+
+
+
 Algoritmo "ESTRUTURAS CONDICIONAIS SIMPLES"  
-          "FAÇA M PROGRAMA QUE LEIA O QUANTOUMA PESSOA TEM EM DINHEIRO"
+          "FAÇA M PROGRAMA QUE LEIA O QUANTO UMA PESSOA TEM EM DINHEIRO"
           "CASO ELA TENHA O VALORACIMA DER41.OOO. DIGA QUE ESTA OK PARA VIAJAR"
 
 Var
@@ -149,4 +159,4 @@ Fimalgoritmo
 
 Escreval ("EXEMPLO 006 -=-" * 50)
 
-Escreval("")    
+Escreval("") 
