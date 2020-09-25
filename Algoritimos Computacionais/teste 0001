@@ -73,9 +73,22 @@ Fimalgoritmo
 
 Escreval(" EXEMPLO 004 ")
 
+Algoritmo " IMPOSTO SOBREPRODUTO "
 
 
+Var
+  PRECO, IMPOSTO : real
 
+Inicio
+
+    Escreval("Qual o valor do produto " )
+    Leia(PRECO)
+    IMPOSTO <- (PRECO * 60) / 100
+    Escreval("O imposto sobre o produto sera de R$: ",IMPOSTO:5:2,"FINALIZADO!")
+
+Fimalgoritmo
+
+Escreval(" EXEMPLO 005")
 
 
 
