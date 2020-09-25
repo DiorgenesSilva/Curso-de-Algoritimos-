@@ -7,7 +7,6 @@
  Escreval("===============================================================")
 
  Escreval(" EXEMPLO 001. ")
-
 Algoritmo "SABER A IDADE DE UM USUARIO   "
 // 
 
@@ -17,7 +16,9 @@ NOME:Caractere
 ANO,NASCIMENTO,IDADE :  Inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("============================================================== ")
+Escreval(" *********** CALCULE A IDADE DO USUARIO ********************   ")
+Escreval("===============================================================")
     Escreval("Digite o nome :")
     Leia(NOME)
     Escreval("Digite o Ano nos estamos")
@@ -25,10 +26,11 @@ Inicio
     Escreval("Em que ano voce nasceu ")
     leia(NASCIMENTO)
     IDADE <-  ANO - NASCIMENTO
-   Escreval(" Voce nasceu no ano de ", ANO, "E em 2020 voce tem ", IDADE , "Anos de idade " )
-Fimalgoritmo
+   Escreval(" Voce nasceu no ano de ", ANO, " E em 2020 voce tem ", IDADE , " Anos de idade " )
+Fimalgoritmo 
 
-Escreval(" EXEMPLO 001. ")
+Escreval(" EXEMPLO 002")
+
 
 
 
