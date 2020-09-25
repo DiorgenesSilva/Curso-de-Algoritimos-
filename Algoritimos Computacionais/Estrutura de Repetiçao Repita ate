@@ -179,3 +179,38 @@ Fimalgoritmo
 
 Escreval(" EXEMPLO 008")
 
+Algoritmo "NUMERO PRIMO CONTADOR REPITA ATE "
+
+
+Var
+// Seção de Declarações das variáveis
+CONTADOR,NUMERO,CONTADORDIV: Inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+Escreval("=========================================================")
+Escreval(" *************** NUMERO PRIMO ********************* ")
+Escreval("==========================================================")
+ CONTADOR <- 1
+ CONTADORDIV <- 0
+ Escreva("Digite um numero:")
+ leia(NUMERO)
+ Repita
+      Escreval(CONTADOR)
+      Se (NUMERO % CONTADOR = 0 ) Entao
+         CONTADORDIV <- CONTADORDIV + 1
+      Fimse
+      CONTADOR <- CONTADOR + 1
+
+ Ate(CONTADOR > NUMERO)
+ Se (CONTADORDIV > 2 ) Entao
+ Escreval( " O valor " , NUMERO , " nã  é PRIMO  1")
+ Senao
+ Escreval("O Valor " , NUMERO , " É PRIMO |")
+ Fimse
+Fimalgoritmo
+
+Escreval(" EXEMPLO 009")
+
+
