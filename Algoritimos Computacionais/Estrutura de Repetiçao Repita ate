@@ -92,4 +92,31 @@ Inicio
 
 Fimalgoritmo
 
+Escreval(" EXEMPLO 005 ")
+
+Algoritmo "REPITA ATE CALCULAR CALCULAR O FACTORIAL "
+
+Var
+
+CONTADOR,NUMERO,FATORIAL: inteiro
+
+Inicio
+   Escreval("==========================================================" )
+   Escreval("  ************ CALCULE O FACTORIAL **************  " )
+   Escreval("==========================================================" )
+
+   Escreva(" Digite um numero : ")
+   leia(NUMERO)
+   CONTADOR <- NUMERO
+   FATORIAL <- 1
+   REPITA
+      Escreval(CONTADOR,"X")
+      FATORIAL <- FATORIAL * CONTADOR
+      CONTADOR <- CONTADOR - 1
+    Ate (CONTADOR < 1 )
+   Escreval(" O valor o FACTORIAL de : " , NUMERO , " É IGUAL A : " ,FATORIAL , " FINALIZADO !" )
+   
+Fimalgoritmo
+
+Escreval(" EXEMPLO 006")
 
