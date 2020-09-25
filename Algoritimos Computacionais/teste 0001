@@ -80,7 +80,9 @@ Var
   PRECO, IMPOSTO : real
 
 Inicio
-
+ Escreval("=================================================================")
+ Escreval("      ********* IMPOSTO SOBRE PRODUTO ******************         ")
+ Escreval("=================================================================")
     Escreval("Qual o valor do produto " )
     Leia(PRECO)
     IMPOSTO <- (PRECO * 60) / 100
