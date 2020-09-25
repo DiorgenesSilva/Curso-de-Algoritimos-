@@ -53,6 +53,28 @@ Fimalgoritmo
 
 Escreval(" EXEMPLO 003")
 
+ Algoritmo "TEMPERATURA CELCIUS PARA FAHRENHEIT "
+
+
+Var
+CELCIUS,FAREN : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval("==========================================================")
+Escreval(" **  TEMPERATURAS TEMPERATURA CELCIUS PARA FAHRENHEIT **  ")
+Escreval("==========================================================")
+     Escreval("Qual a temperatura em FAHRENHEIT ")
+     Leia(FAREN)
+     CELCIUS <- ( FAREN - 32 ) / 1.8
+     Escreval("No Brasil estaria em Grasus Celcius ", CELCIUS:4:2 ,"...")
+
+Fimalgoritmo
+
+Escreval(" EXEMPLO 004 ")
+
+
+
 
 
 
