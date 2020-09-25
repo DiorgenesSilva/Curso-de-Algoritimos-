@@ -32,6 +32,27 @@ Fimalgoritmo
 Escreval(" EXEMPLO 002")
 
 
+Algoritmo "CONVERSOR DE MOEDAS "
+// 
+
+Var
+DOLAR,REAIS : real
+
+Inicio
+Escreval("===============================================================")
+Escreval(   " ************* CONVERSOR DE MOEDAS ***************       "  )
+eSCREVAL("=============================================================== ")
+
+      DOLAR <- 2.20
+      Escreval("Quantos em R$ eu tenho ?")
+      leia(REAIS)
+      DOLAR <- REAIS / DOLAR
+      Escreval ( "posso ter em Dolar US$ ",DOLAR:4:2, "..")
+
+Fimalgoritmo
+
+Escreval(" EXEMPLO 003")
+
 
 
 
