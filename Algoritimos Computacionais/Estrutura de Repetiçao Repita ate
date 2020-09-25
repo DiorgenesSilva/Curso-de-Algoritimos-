@@ -1,0 +1,179 @@
+ Escreval("==============================================================")
+ Escreval("      **~~~*****EDITOR PARA TESTES DO VISUALG*****~~**         )
+ Escreval("==============================================================")
+ Escreval("ESTRUTURA DE REPETIÇAO REPITA - ATE() 
+ Escreval("==============================================================") 
+
+ Escreval(" EXEMPLO 001. ")
+
+Algoritmo "REPITA -ATE() CONTADOR ATE 10 "
+
+Var
+CONTADOR:inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   CONTADOR  <- 1
+   Repita
+       Escreva(CONTADOR)
+       CONTADOR <- CONTADOR + 1
+   Ate(CONTADOR > 10)
+   
+
+Fimalgoritmo
+
+Escreval(" EXEMPLO 002 ")
+
+
+ "ESTRUTURA DE CONDIÇAO REPITA ATE" 
+ Algoritmo 
+              "SOMA DE TODOS OS VALORES'
+               " O USUARIO DECIDE QUANDO PARAR"
+Var
+
+  NUM, SOMA: Inteiro
+  RESP: Caractere
+
+InicioAlgoritmo
+  SOMA<- 0
+  Repita
+        Escreva("digite um Valor:")
+        Leia(NUM)
+        SOMA <- SOMA + NUM
+        Escreval("Voce quer continuar [S/N]")
+        Leia(RESP)
+  Ate(RESP = "N")
+ Escreval(" A soma 
+
+ Escreval(" EXEMPLO 003 ")
+
+ Algoritmo "TABUADA REPITA ATE   "
+   
+
+Var
+   CONT,NUM,RES: inteiro
+
+Inicio
+ 
+ CONT <- 1
+ Escreval("QUER SABER A TABUADA DE QUAL NUMERO?")
+ Leia(NUM)
+ Repita
+ RES <- ( NUM * CONT)
+ Escreval(NUM,"X",CONT,"=",RES)
+ CONT <- CONT +1
+ ate(CONT > 10)
+ 
+ 
+
+Fimalgoritmo
+
+
+ Escreval(" EXEMPLO 004 ")
+
+Algoritmo "estrutura de condiçao REPITA ATE, QUANTOS NUMEROS SAO NEGATIVOS"
+
+Var
+  NUM,CONT,TOTALN : inteiro
+
+Inicio
+    CONT <- 1
+    TOTALN <- 0
+    Repita
+       Escreva("Digite um numero")
+       Leia(NUM)
+       Se (NUM < 0) Entao
+          TOTALN <- TOTALN + 1
+       Fimse
+       CONT <- CONT + 1
+    Ate(CONT > 5 )
+   Escreval("Foramm  digitados ",TOTALN,"Valores negativos")
+
+Fimalgoritmo
+
+Escreval(" EXEMPLO 005 ")
+
+Algoritmo "REPITA ATE CALCULAR CALCULAR O FACTORIAL "
+
+Var
+
+CONTADOR,NUMERO,FATORIAL: inteiro
+
+Inicio
+   Escreval("==========================================================" )
+   Escreval("  ************ CALCULE O FACTORIAL **************  " )
+   Escreval("==========================================================" )
+
+   Escreva(" Digite um numero : ")
+   leia(NUMERO)
+   CONTADOR <- NUMERO
+   FATORIAL <- 1
+   REPITA
+      Escreval(CONTADOR,"X")
+      FATORIAL <- FATORIAL * CONTADOR
+      CONTADOR <- CONTADOR - 1
+    Ate (CONTADOR < 1 )
+   Escreval(" O valor o FACTORIAL de : " , NUMERO , " É IGUAL A : " ,FATORIAL , " FINALIZADO !" )
+   
+Fimalgoritmo
+
+Escreval(" EXEMPLO 006")
+
+Algoritmo "REPITA ATE < CALCULAR CALCULAR O FACTORIAL "
+
+Var
+
+CONTADOR,NUMERO,FATORIAL: inteiro
+RESPOSTA : Caractere
+Inicio
+   Escreval("==========================================================" )
+   Escreval("  ************ CALCULE O FACTORIAL **************  " )
+   Escreval(" FAZER O FATORIAL PARA VARIOS NUMEROS,IDEPENDENTE SE O USUARIO DIGA S/N  ")
+   Escreval("==========================================================" )
+
+   Escreva(" Digite um numero : ")
+   leia(NUMERO)
+   CONTADOR <- NUMERO
+   FATORIAL <- 1
+   REPITA
+      Escreval(CONTADOR,"X")
+      FATORIAL <- FATORIAL * CONTADOR
+      CONTADOR <- CONTADOR - 1
+    Ate (CONTADOR < 1 )
+   Escreval(" O valor o FACTORIAL de : " , NUMERO , " É IGUAL A : " ,FATORIAL , " FINALIZADO !" )
+   
+Fimalgoritmo
+
+Escreval(" EXEMPLO 007") 
+
+Algoritmo "REPITA ATE < CALCULAR CALCULAR O FACTORIAL "
+
+Var
+
+CONTADOR,NUMERO,FATORIAL: inteiro
+RESPOSTA : Caractere
+
+Inicio
+     Escreval("==========================================================" )
+     Escreval("  ************ CALCULE O FACTORIAL **************  " )
+     Escreval(" FAZER O FATORIAL PARA VARIOS NUMEROS,IDEPENDENTE SE O USUARIO DIGA S/N  ")
+     Escreva ("==========================================================" )
+     
+ Repita
+     Escreval(" Digite um numero : ")
+     leia(NUMERO)
+     CONTADOR <- NUMERO
+     FATORIAL <- 1
+   Repita
+        FATORIAL <- FATORIAL * CONTADOR
+        CONTADOR <- CONTADOR - 1
+   Ate (CONTADOR < 1 )
+     Escreval(" O valor o FACTORIAL de : " , NUMERO , " É IGUAL A : " ,FATORIAL , " FINALIZADO !" )
+  Escreva ("Quer continuar ?[ s/n ]: ")
+  Leia(RESPOSTA)
+ Ate( RESPOSTA = "N")
+Fimalgoritmo
+
+Escreval(" EXEMPLO 008")
+
