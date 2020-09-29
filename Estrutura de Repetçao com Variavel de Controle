@@ -50,4 +50,75 @@ Algoritimo"Contar de 1 a 10)
 Para C<- 1 ate 10  faca
     Escreval(c) 
 FimPara
-   
+
+ 
+Ela nao é utilizavel em todos aas situações .
+Quando o usuario nao sabe quantas ele vai repetir para esses casos especificos  a estrutura Para,nao é recomendavel.
+
+Escreval"(======================================================")
+Escreval(Exemplo 004)
+Algoritmo "Condiçao PARA,ATE,PASSO,FAÇA e FIMPARA Exibiçao dos numeros pares "
+// 
+
+Var
+CONT,VALOR:inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   Escreval("Digite um valor")
+   leia(VALOR)
+   Para CONT <- 0 ate VALOR passo 2 faca
+        Escreval(CONT)
+   FimPara
+
+Fimalgoritmo
+
+Escreval"=====================================================")
+Escreval("Exemplo001)
+
+Algoritmo "Condiçao PARA,ATE,PASSO,FAÇA e FIMPARA  "
+"Cndiçao Para mostrando quantos numeros existem entre 0 a 10 por repetição."
+// 
+
+Var
+  CONT,VALOR,TOTAL : inteiro
+Inicio
+   TOTAL <- 0
+   Para CONT <- 1 ate 5 faca
+        Escreval("Digite um Valor")
+        Leia(VALOR)
+        Se (VALOR >= 0 ) e (VALOR <= 10 ) entao
+        TOTAL<- TOTAL + 1
+        
+     Fimse
+   FimPara
+   Escreval("Ao todo foram ",TOTAL," Valores entre 0 e 10 ")
+
+Fimalgoritmo
+
+Escreval("===================================================") 
+Escreval("Exemplo 002)
+Algoritmo "Condiçao PARA,ATE,PASSO,FAÇA e FIMPARA  "
+"Cndiçao Para mostrando quantos numeros existem entre 0 a 10 por repetição."
+ "e SOMANDO OS NUMEROS IMPARES "
+// 
+
+Var
+  CONT,VALOR,TOTAL,SOMAIMP : inteiro
+Inicio
+   TOTAL <- 0
+   Para CONT <- 1 ate 6 faca
+        Escreval("Digite um Valor")
+        Leia(VALOR)
+        Se (VALOR >= 0 ) e (VALOR <= 10 ) entao
+        TOTAL<- TOTAL + 1
+        Se (VALOR  %2 = 1) entao
+          SOMAIMP <- SOMAIMP + VALOR
+      Fimse
+     Fimse
+   FimPara
+   Escreval("Ao todo foram ",TOTAL," Valores entre 0 e 10 ")
+   Escreval("Neste intervalo a soma de impares de  é",SOMAIMP)
+Fimalgoritmo
+
+Escreval("=======================================================')
+Escreval("Exemplo 004")
