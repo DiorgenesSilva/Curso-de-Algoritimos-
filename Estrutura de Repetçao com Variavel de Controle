@@ -1,5 +1,5 @@
 REPETIÇÃO COM VARIÁVEL DE CONTROLE
-Obs.:clique na imagem para ampliar.
+ 
 
 Usa-se estrutura de repetição com variável de controle quando se tem uma quantidade definida de repetições a executar.
 Exemplo:
@@ -13,4 +13,41 @@ Atribuição de uma valor inicial;
 Teste lógico;
 Instrução/bloco a se repetir;
 Incremento da variável de controle.
-De forma geral a estrutura Para funciona da seguinte maneira: atribui-se um valor inicial a variável de controle. Realiza-se o teste lógico com a variável de controle. Se o teste for Verdadeiro executa a instrução/bloco a se repitir. Incrementa a variável de controle com um valor definido. Volta ao teste lógic
+De forma geral a estrutura Para funciona da seguinte maneira: atribui-se um valor inicial a variável de controle. Realiza-se o teste lógico com a variável de controle. Se o teste for Verdadeiro executa a instrução/bloco a se repitir. Incrementa a variável de controle com um valor definido. 
+
+Revisando a Estrutura Enquanto - Faça e Repita-ate.
+
+Estrutura Enquanto-Faça
+Algotitimo"Arrumar o Quarto"
+Enquanto nao arrumar o quarto Faça 
+    Castigo 
+FimEnquanto 
+
+Algotitimo"Contar ate 10"
+Enquanto  ( c <= 19 ) Faça
+    Escreval(C) 
+    C <- C -1 
+FimEnquanto      
+
+
+Estrutura Repita-Ate
+Algotitimo"Arrumar o quarto" 
+Repita  
+    Castigo
+Ate (arrumar o quarto )
+liberado 
+
+Algotitimo  "Contar ate 10 
+Repita 
+    Escreval(C)
+    C <- C +1 
+Ate(C > 10) 
+Podemos ver que temos um a inversão de estruturas logicas nos emplos acima . Utilizando Enquanto NAO arrumar,ja na outro  nao se utiliza o Nao e sim  repita Até  .
+E outra coisa que deve perceber é a linha do contador ( C <- C +1 ) sempre esta presente nas estruturas de repetição para ser alterado o valor e chegar ate o resultado ,no caso do exemplo axima ate o numero 10. 
+
+Estrutura de Repetiçao Para-ate-passo-Faça
+Algoritimo"Contar de 1 a 10) 
+Para C<- 1 ate 10  faca
+    Escreval(c) 
+FimPara
+   
