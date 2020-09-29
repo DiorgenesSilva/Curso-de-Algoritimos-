@@ -1,0 +1,16 @@
+REPETIÇÃO COM VARIÁVEL DE CONTROLE
+Obs.:clique na imagem para ampliar.
+
+Usa-se estrutura de repetição com variável de controle quando se tem uma quantidade definida de repetições a executar.
+Exemplo:
+Na primeira idéia de estruturas de repetição, citei o exemplo da tabuada. Na tabuada se tem definido a quantidade de vezes que se repete, 10. Haverá situações em que se tem uma quantidade definida de vezes mas não e possível dizer preliminarmente, como na tabuada, a quantidade. Isso acontece, por exemplo, quanto a quantidade de repetições sai do resultado de um cálculo.
+
+A estrutura de repetição com variável de controle também é conhecida como PARA.
+
+A estrutura Para é composta de:
+
+Atribuição de uma valor inicial;
+Teste lógico;
+Instrução/bloco a se repetir;
+Incremento da variável de controle.
+De forma geral a estrutura Para funciona da seguinte maneira: atribui-se um valor inicial a variável de controle. Realiza-se o teste lógico com a variável de controle. Se o teste for Verdadeiro executa a instrução/bloco a se repitir. Incrementa a variável de controle com um valor definido. Volta ao teste lógic
